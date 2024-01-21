@@ -11,9 +11,10 @@ body{
 
 }
 
-.main{
+.container{
     width: 1920px;
     margin: 0px auto;
+    /* border: 2px solid white; */
     
 }
 
@@ -103,14 +104,14 @@ header{
 }
 
 @media screen and (max-width: 1200px) {
-    .main{
+    .container{
         width: 50%;
     }
     
 }
 
-@media screen and (max-width: 480px) {
-    .main{
+@media screen and (max-width: 576px) {
+    .container{
         width: 100%;
     }
     
@@ -121,6 +122,11 @@ header{
     }
     
     .logo{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .logo > img {
         width: 100%;
     }
     .navigations{

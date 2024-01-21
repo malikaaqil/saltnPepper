@@ -29,12 +29,11 @@ header{
 .logo{
     width: 20%;
     /* height: 90%; */
-    border: 2px solid red;
 }
+
 .logo img{
     width: 80%;
     height: 120px;
-    border: 2px solid rgb(3, 255, 87);
 }
 
 .navigations{
